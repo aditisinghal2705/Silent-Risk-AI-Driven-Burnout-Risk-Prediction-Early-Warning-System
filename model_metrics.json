@@ -1,0 +1,22 @@
+{
+  "training_backend": "scikit-learn",
+  "rmse": 0.0732,
+  "mae": 0.0537,
+  "r2": 0.8513,
+  "feature_columns": [
+    "Designation",
+    "Resource Allocation",
+    "Mental Fatigue Score",
+    "Tenure_Days",
+    "Workload_Intensity"
+  ],
+  "feature_importance": {
+    "Designation": 0.007798,
+    "Resource Allocation": 0.095309,
+    "Mental Fatigue Score": 0.854447,
+    "Tenure_Days": 0.034575,
+    "Workload_Intensity": 0.007871
+  },
+  "training_rows": 18200,
+  "test_rows": 4550
+}
